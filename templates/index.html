@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="login">
+        <h1>Welcome to the home page</h1>
+        <a href="{{ url_for('predict_datapoint') }}">
+            <button>Go to Prediction Page</button>
+        </a>
+    </div>
+</body>
+</html>
